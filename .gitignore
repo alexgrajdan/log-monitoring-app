@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+*.ini
+*.log # Generally good to ignore, but for this project, log/logs.log is an input.
+      # If the application *generated* logs, those would definitely be here.
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
