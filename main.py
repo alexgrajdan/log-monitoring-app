@@ -3,11 +3,12 @@
 Main entry point for the log monitoring application.
 Orchestrates the parsing, processing, and reporting of log data.
 """
-# Change imports to reflect the new package structure
-import config
-from log_parser import parse_log_line, LogParsingError
-from log_processor import LogProcessor
-from reporter import print_final_report
+# New path to the core_modules package
+from core_modules import config
+from core_modules.log_parser import parse_log_line, LogParsingError
+from core_modules.log_processor import LogProcessor
+from core_modules.reporter import print_final_report
+
 
 def run_monitor():
     """

@@ -2,7 +2,7 @@
 """
 Handles parsing of individual log lines.
 """
-from utils import parse_timestamp_to_seconds
+from .utils import parse_timestamp_to_seconds
 
 class LogParsingError(Exception):
     """Custom exception for errors during log line parsing."""
