@@ -3,8 +3,8 @@
 Core logic for processing parsed log events, managing job states,
 and generating report entries.
 """
-from config import WARNING_THRESHOLD_SECONDS, ERROR_THRESHOLD_SECONDS
-from utils import format_duration_from_seconds
+from .config import WARNING_THRESHOLD_SECONDS, ERROR_THRESHOLD_SECONDS
+from .utils import format_duration_from_seconds
 
 class LogProcessor:
     """Processes log events and maintains the state of active jobs."""
